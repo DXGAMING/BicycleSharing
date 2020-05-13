@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d10d6f6-da09-45f8-b1fa-e9cdc2a7ccb8" name="Default Changelist" comment="" />
+    <list default="true" id="2d10d6f6-da09-45f8-b1fa-e9cdc2a7ccb8" name="Default Changelist" comment="DataBase Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facades/UserCreationFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facades/impl/UserCreationFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menues/AuthorizationMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c272fc83-1754-4613-b411-99597ad85b82.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c272fc83-1754-4613-b411-99597ad85b82.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c272fc83-1754-4613-b411-99597ad85b82/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c272fc83-1754-4613-b411-99597ad85b82/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c272fc83-1754-4613-b411-99597ad85b82/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c272fc83-1754-4613-b411-99597ad85b82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BikeSharingService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BikeSharingService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/DefaultClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/DefaultClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/MainConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/MainConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/util/HibernateSessionFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/util/HibernateSessionFactoryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/AbstractModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/AbstractModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/AdminModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/AdminModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/BicycleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/BicycleModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/CustomerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/CustomerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/DefaultServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/DefaultServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/handlers/MonoThreadClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/handlers/MonoThreadClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/DefaultClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/DefaultClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/constants/MainConstants$BicycleSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/MainConstants$BicycleSize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/constants/MainConstants$BicycleType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/MainConstants$BicycleType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/constants/MainConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/MainConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/util/HibernateSessionFactoryUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/util/HibernateSessionFactoryUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/AbstractModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/AbstractModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/AdminModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/AdminModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/BicycleModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/BicycleModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/CustomerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/CustomerModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/UserModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/DefaultServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/DefaultServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/handlers/MonoThreadClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/handlers/MonoThreadClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-config.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +62,47 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="PostgreSQL - postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="postgres" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="customers: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres" type="feb32156:DbDataSourceImpl" />
+        <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -38,6 +119,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -46,6 +130,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1bUjFxSYq47l5FUZUOwKZx03zsY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -54,8 +139,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DatabaseDriversLRU" value="postgresql&#10;cassandra" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -63,7 +150,20 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.Main" />
+      <module name="BikeSharingService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="server.DefaultServer" />
       <module name="BikeSharingService" />
@@ -71,6 +171,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@4d1eb771" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -91,26 +218,35 @@
       <workItem from="1589048635002" duration="8595000" />
       <workItem from="1589101735834" duration="5540000" />
       <workItem from="1589173581102" duration="4035000" />
-      <workItem from="1589261123309" duration="1191000" />
+      <workItem from="1589261123309" duration="18205000" />
+      <workItem from="1589349540243" duration="3895000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DataBase Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="DataBase Changes" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Assign_Data_Sources" timestamp="1589312240096">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1589312240096" />
     <state x="552" y="178" key="#Project_Structure" timestamp="1588696114012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1588696114012" />
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589135140236">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589312430869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589135140236" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1589057242152">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589312430869" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1589350777280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589057242152" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589350777280" />
     <state x="827" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589105842991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -119,26 +255,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="694" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589050211267" />
+    <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589309725193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1589309725193" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589309604807">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589309604807" />
+    <state x="533" y="114" key="CommitChangelistDialog2" timestamp="1589355450751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="533" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589355450751" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589202340096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589202340096" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1589135145932">
+    <state width="1877" height="428" key="GridCell.Tab.0.bottom" timestamp="1589352701808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589135145932" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1589135145932">
+    <state width="1877" height="428" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589352701808" />
+    <state width="1877" height="428" key="GridCell.Tab.0.center" timestamp="1589352701808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589135145932" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1589135145932">
+    <state width="1877" height="428" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589352701808" />
+    <state width="1877" height="428" key="GridCell.Tab.0.left" timestamp="1589352701808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589135145932" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1589135145932">
+    <state width="1877" height="428" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589352701808" />
+    <state width="1877" height="428" key="GridCell.Tab.0.right" timestamp="1589352701808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589135145932" />
+    <state width="1877" height="428" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589352701808" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1589313744876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589313744876" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1589313744876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589313744876" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1589313744876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589313744876" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1589313744876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589313744876" />
+    <state width="342" height="457" key="HiddenNamespacesPopup" timestamp="1589312397641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="342" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1589312397641" />
     <state x="625" y="219" key="NewModule_or_Project.wizard" timestamp="1589202377766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -147,10 +315,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589105972279" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589355299917">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589355299917" />
+    <state x="839" y="390" width="326" height="260" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1589352279886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="839" y="390" width="326" height="260" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040@0.0.1920.1040" timestamp="1589352279886" />
+    <state x="932" y="248" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1589352564248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="932" y="248" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589352564248" />
+    <state x="818" y="266" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1589311212444">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="818" y="266" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589311212444" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1588694727708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588694727708" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1589305138402">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589305138402" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589302364860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589302364860" />
     <state x="640" y="202" key="spring file set editor" timestamp="1588694970385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

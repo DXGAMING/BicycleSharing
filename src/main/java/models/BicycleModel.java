@@ -3,12 +3,25 @@ package models;
 import constants.MainConstants.BicycleType;
 import constants.MainConstants.BicycleSize;
 
+import javax.persistence.*;
 
+
+@Entity
+@Table(name = "bicycles")
 public class BicycleModel extends AbstractModel
 {
+	public BicycleModel()
+	{
+	}
+
+	@Column
 	private String model;
+
+	@Embedded
 	private BicycleSize size;
+	@Embedded
 	private BicycleType type;
+	@Column
 	private double pricePerHour;
 
 	public String getModel()
@@ -49,5 +62,12 @@ public class BicycleModel extends AbstractModel
 	public void setPricePerHour(final double pricePerHour)
 	{
 		this.pricePerHour = pricePerHour;
+	}
+
+	@Id
+	@Override
+	public long getPersonalCode()
+	{
+		return super.getPersonalCode();
 	}
 }

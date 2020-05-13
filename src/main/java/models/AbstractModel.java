@@ -1,18 +1,21 @@
 package models;
 
 
+
+
 public abstract class AbstractModel
 {
 
-	private String personalCode;
+
+	private long personalCode;
 
 
-	public String getPersonalCode()
+	public long getPersonalCode()
 	{
 		return personalCode;
 	}
 
-	public void setPersonalCode(String personalCode)
+	public void setPersonalCode(long personalCode)
 	{
 		this.personalCode = personalCode;
 	}

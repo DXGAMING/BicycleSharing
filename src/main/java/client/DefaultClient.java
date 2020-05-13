@@ -51,21 +51,21 @@ public class DefaultClient implements Runnable
 			while (i < 5)
 			{
 
-				// пишем сообщение автогенерируемое циклом клиента в канал
-				// сокета для сервера
-				oos.writeUTF("clientCommand " + i);
-
+				oos.writeUTF("entrance");
+				oos.flush();
+				Thread.sleep(10);
+				if(ois.readUTF().equals("enter"))
+				{
+					LOG.info("Entering user data");
+					oos.writeUTF("Имя|Фамилия|375|MP|password");
+				}
 				// проталкиваем сообщение из буфера сетевых сообщений в канал
 				oos.flush();
-
 				// ждём чтобы сервер успел прочесть сообщение из сокета и
 				// ответить
 				Thread.sleep(10);
-				System.out.println("Client wrote & start waiting for data from server...");
-				// забираем ответ из канала сервера в сокете
-				// клиента и сохраняем её в ois переменную, печатаем на
-				// консоль
-				System.out.println("reading...");
+
+				System.out.println("loading...");
 				String in = ois.readUTF();
 				System.out.println(in);
 				i++;

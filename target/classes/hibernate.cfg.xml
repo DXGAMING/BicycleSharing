@@ -9,8 +9,8 @@
         <!-- Connection settings -->
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
         <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/postgres</property>
-        <property name="hibernate.connection.username">postrges</property>
-        <property name="hibernate.connection.password">java8</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">password</property>
 
         <!-- SQL dialect -->
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL94Dialect</property>
@@ -24,5 +24,9 @@
         <!-- Annotated entity classes -->
 
         <!-- ADD CLASS HERE<mapping class=""/> -->
+        <mapping package="models"/>
+        <mapping class="models.CustomerModel"/>
+        <mapping class="models.AdminModel"/>
+        <mapping class="models.BicycleModel"/>
     </session-factory>
 </hibernate-configuration>

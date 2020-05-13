@@ -6,21 +6,31 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
+
+import facades.UserCreationFacade;
+
+import facades.impl.UserCreationFacadeImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+
 
 public class MonoThreadClientHandler implements Runnable
 {
 	private static Socket clientDialog;
-	private static final Logger  LOG = LoggerFactory.getLogger(MonoThreadClientHandler.class);
-	public MonoThreadClientHandler(Socket client) {
+	private static final Logger LOG = LoggerFactory.getLogger(MonoThreadClientHandler.class);
+
+	private UserCreationFacade userCreationFacade;
+	public MonoThreadClientHandler(Socket client)
+	{
 		MonoThreadClientHandler.clientDialog = client;
+		userCreationFacade = new UserCreationFacadeImpl();
 	}
-
 	@Override
-	public void run() {
-
-		try {
+	public void run()
+	{
+		try
+		{
 			// инициируем каналы общения в сокете, для сервера
 
 			// канал чтения из сокета
@@ -37,7 +47,8 @@ public class MonoThreadClientHandler implements Runnable
 
 			// начинаем диалог с подключенным клиентом в цикле, пока сокет не
 			// закрыт клиентом
-			while (!clientDialog.isClosed()) {
+			while (!clientDialog.isClosed())
+			{
 				LOG.info("Server reading from channel");
 
 				// серверная нить ждёт в канале чтения (inputstream) получения
@@ -49,7 +60,19 @@ public class MonoThreadClientHandler implements Runnable
 
 				// инициализация проверки условия продолжения работы с клиентом
 				// по этому сокету по кодовому слову - quit в любом регистре
-				if (entry.equalsIgnoreCase("quit")) {
+				if (entry.equalsIgnoreCase("entrance"))
+				{
+					Thread.sleep(10);
+					out.writeUTF("enter");
+					out.flush();
+					Thread.sleep(10);
+					String userData = in.readUTF();
+					userCreationFacade.createUser(false,userData);
+					out.writeUTF("userCreated");
+					out.flush();
+				}
+				if (entry.equalsIgnoreCase("quit"))
+				{
 
 					// если кодовое слово получено то инициализируется закрытие
 					// серверной нити
@@ -88,7 +111,9 @@ public class MonoThreadClientHandler implements Runnable
 			clientDialog.close();
 
 			System.out.println("Closing connections & channels - DONE.");
-		} catch (IOException | InterruptedException e) {
+		}
+		catch (IOException | InterruptedException e)
+		{
 			LOG.error(e.getMessage());
 		}
 	}

@@ -8,7 +8,17 @@ public abstract class UserModel extends AbstractModel
 	private String surname;
 	private String phone;
 	private String passportId;
+	private String password;
 
+	public String getPassword()
+	{
+		return password;
+	}
+
+	public void setPassword(final String password)
+	{
+		this.password = password;
+	}
 
 	public String getName()
 	{
